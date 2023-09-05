@@ -1,0 +1,18 @@
+#%Catalog Descriptor 1.0
+projects:
+  - main: payments-oas.yaml
+    assetId: invoice-payment-system-api
+    version: 1.1.0
+    apiVersion: v1
+  - main: shipping/shipping-api.yaml
+    assetId: shipping-api
+    version: 1.0.1
+    apiVersion: v1
+    contact:
+      name: 'Omar Warraky'
+      email: 'owarraky@salesforce.com'
+    tags:
+      - logistics
+      - commerce
+    documentation:
+      Home: shipping/home.md
